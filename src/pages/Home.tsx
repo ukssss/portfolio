@@ -46,7 +46,10 @@ const Home = () => {
                     &nbsp;라는 붓을 가지고
                 </AboutMeText>
                 <AboutMeText>예술가가 되기를 꿈꾸는</AboutMeText>
-                <AboutMeText>개발자 홍성욱 입니다</AboutMeText>
+                <AboutMeText>
+                    개발자&nbsp;<AboutMeTextColor color="#007ACC">홍성욱</AboutMeTextColor>
+                    &nbsp;입니다
+                </AboutMeText>
             </AboutMe>
             {!isMobile && (
                 <AboutMe>
@@ -75,7 +78,14 @@ const AboutMeText = styled.p`
     margin-bottom: 1rem;
 
     font-size: 2rem;
-    font-weight: 700;
+
+    @media (min-width: 768px) and (max-width: 1200px) {
+        font-weight: 500;
+    }
+
+    @media (min-width: 1201px) {
+        font-weight: 700;
+    }
 
     & > img {
         position: absolute;
