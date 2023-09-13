@@ -29,14 +29,14 @@ const Home = () => {
                     {isTablet && (
                         <img
                             src="https://camo.githubusercontent.com/e8e7b06ecf583bc040eb60e44eb5b8e0ecc5421320a92929ce21522dbc34c891/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966"
-                            width="30"
+                            width="50"
                             data-canonical-src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
                         />
                     )}
                     {isMobile && (
                         <img
                             src="https://camo.githubusercontent.com/e8e7b06ecf583bc040eb60e44eb5b8e0ecc5421320a92929ce21522dbc34c891/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966"
-                            width="25"
+                            width="50"
                             data-canonical-src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
                         />
                     )}
@@ -89,7 +89,7 @@ const AboutMeText = styled.p`
 
     & > img {
         position: absolute;
-        top: 0;
+        top: 2;
         left: 2.5rem;
     }
 `;
