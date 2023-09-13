@@ -96,7 +96,7 @@ const Container = styled.header`
     align-items: center;
 
     height: 100px;
-    padding: 0 10px;
+    padding: 2rem;
 `;
 
 const TabletContainer = styled.header`
