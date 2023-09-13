@@ -8,12 +8,12 @@ import { SideCar } from '..';
 import Hamburger from './Hamburger';
 
 const Header = () => {
-    const isMobile = useMediaQuery({
-        query: '(max-width: 1000px)',
+    const isTablet = useMediaQuery({
+        query: '(max-width: 1023px)',
     });
 
     const isDesktop = useMediaQuery({
-        query: '(min-width: 1001px)',
+        query: '(min-width: 1024px)',
     });
 
     const [sideCarOpen, setSideCarOpen] = useRecoilState(sideCarState);
@@ -28,7 +28,7 @@ const Header = () => {
                 <Container>
                     <StyledLogo>
                         <StyledLink to="/">
-                            <LogoImage src="src/assets/logo.svg" alt="logo" />
+                            <LogoImage src="src/assets/ukss/logo.svg" alt="logo" />
                         </StyledLink>
                     </StyledLogo>
                     <StyledBasicMenu>
@@ -68,8 +68,8 @@ const Header = () => {
                 </Container>
             )}
 
-            {isMobile && (
-                <MobileContainer>
+            {isTablet && (
+                <TabletContainer>
                     <Overlay onClick={toggleSideCar} sideCarOpen={sideCarOpen} />
 
                     <Hamburger onClick={toggleSideCar}>
@@ -78,12 +78,12 @@ const Header = () => {
 
                     <StyledLogo>
                         <StyledLink to="/">
-                            <LogoImage src="src/assets/logo.svg" alt="logo" />
+                            <LogoImage src="src/assets/ukss/logo.svg" alt="logo" />
                         </StyledLink>
                     </StyledLogo>
 
                     {sideCarOpen && <SideCar />}
-                </MobileContainer>
+                </TabletContainer>
             )}
         </>
     );
@@ -99,7 +99,7 @@ const Container = styled.header`
     padding: 0 10px;
 `;
 
-const MobileContainer = styled.header`
+const TabletContainer = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -141,12 +141,12 @@ const LogoImage = styled.img`
 const StyledBasicMenu = styled.ul`
     display: flex;
     flex-direction: row;
-    gap: 67px;
+    gap: 5.5rem;
 
     color: #666;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1rem;
 `;
 const StyledMenuItem = styled.li``;
 
@@ -155,7 +155,7 @@ const StyledLinkMenu = styled.ul`
     flex-direction: row;
     justify-content: space-between;
 
-    gap: 10px;
+    gap: 0.8rem;
 `;
 
 const MenuImage = styled.img``;
