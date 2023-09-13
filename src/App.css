@@ -1,0 +1,12 @@
+@media (min-width: 1001px) {
+    #root {
+        padding: 2rem;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    #root {
+        height: 100vh;
+    }
+}
