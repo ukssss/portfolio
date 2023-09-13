@@ -77,6 +77,7 @@ const List = styled.ul`
 const Item = styled.li`
     padding: 1rem;
     display: flex;
+    flex-direction: row;
     gap: 10px;
 `;
 const ItemLeft = styled.div`
@@ -88,7 +89,7 @@ const ItemLeft = styled.div`
 `;
 const ItemRight = styled.div`
     padding: 1rem;
-
+    flex: 1;
     font-weight: 600;
 `;
 
