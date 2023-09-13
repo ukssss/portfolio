@@ -1,1 +1,1 @@
-export * from './atoms/SideCarState';
+export * from './atoms/sideCarState';
