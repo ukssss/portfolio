@@ -6,7 +6,6 @@
 
     html {
         font-size: 16px;
-        font-family: 'NotoSansKR';
     }
 }
 
@@ -18,7 +17,6 @@
 
     html {
         font-size: 18px;
-        font-family: 'NotoSansKR';
     }
 }
 
@@ -30,16 +28,15 @@
 
     html {
         font-size: 24px;
-        font-family: 'NotoSansKR';
     }
+}
+
+/* Common */
+#root {
+    font-family: 'SUITE';
 }
 
 main {
     margin-top: 4rem;
     padding: 2rem;
-}
-
-@font-face {
-    font-family: 'NotoSansKR';
-    src: url('./fonts/NotoSansKR-VariableFont_wght.ttf');
 }
