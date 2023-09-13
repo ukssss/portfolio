@@ -1,3 +1,4 @@
+import { ScrollToTop } from '@/components';
 import styled from 'styled-components';
 
 const About = () => {
@@ -58,6 +59,14 @@ const About = () => {
                     </Item>
                 </List>
             </Section>
+
+            <ScrollToTop
+                opacity={0.8}
+                size={'3rem'}
+                bottom={'1rem'}
+                right={'1rem'}
+                color={'#007ACC'}
+            />
         </Container>
     );
 };
