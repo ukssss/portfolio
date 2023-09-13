@@ -1,0 +1,41 @@
+/* Mobile */
+@media (max-width: 767px) {
+    #root {
+        height: 100vh;
+    }
+
+    html {
+        font-size: 10px;
+        font-family: 'NotoSansKR';
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #root {
+        height: 100vh;
+    }
+
+    html {
+        font-size: 12px;
+        font-family: 'NotoSansKR';
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    #root {
+        padding: 2rem;
+        height: 100vh;
+    }
+
+    html {
+        font-size: 24px;
+        font-family: 'NotoSansKR';
+    }
+}
+
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url('./fonts/NotoSansKR-VariableFont_wght.ttf');
+}
