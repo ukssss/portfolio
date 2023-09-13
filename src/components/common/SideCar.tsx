@@ -21,7 +21,7 @@ const SideCar = () => {
 
                 <StyledLogo>
                     <StyledLink to="/" onClick={toggleSideCar}>
-                        <LogoImage src="src/assets/ukss/logo.svg" alt="logo" />
+                        <LogoImage src="/ukss/logo.svg" alt="logo" />
                     </StyledLink>
                 </StyledLogo>
             </Exit>

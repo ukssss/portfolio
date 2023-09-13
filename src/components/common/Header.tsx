@@ -28,7 +28,7 @@ const Header = () => {
                 <Container>
                     <StyledLogo>
                         <StyledLink to="/">
-                            <LogoImage src="src/assets/ukss/logo.svg" alt="logo" />
+                            <LogoImage src="/ukss/logo.svg" alt="logo" />
                         </StyledLink>
                     </StyledLogo>
                     <StyledBasicMenu>
@@ -51,17 +51,17 @@ const Header = () => {
                     <StyledLinkMenu>
                         <StyledMenuItem>
                             <StyledLink to="https://github.com/ukssss">
-                                <MenuImage src="src/assets/github.svg" alt="logo" />
+                                <MenuImage src="/sns/github.svg" alt="logo" />
                             </StyledLink>
                         </StyledMenuItem>
                         <StyledMenuItem>
                             <StyledLink to="/">
-                                <MenuImage src="src/assets/twitter.svg" alt="logo" />
+                                <MenuImage src="/sns/twitter.svg" alt="logo" />
                             </StyledLink>
                         </StyledMenuItem>
                         <StyledMenuItem>
                             <StyledLink to="/">
-                                <MenuImage src="src/assets/linkedin.svg" alt="logo" />
+                                <MenuImage src="/sns/linkedin.svg" alt="logo" />
                             </StyledLink>
                         </StyledMenuItem>
                     </StyledLinkMenu>
@@ -78,7 +78,7 @@ const Header = () => {
 
                     <StyledLogo>
                         <StyledLink to="/">
-                            <LogoImage src="src/assets/ukss/logo.svg" alt="logo" />
+                            <LogoImage src="/ukss/logo.svg" alt="logo" />
                         </StyledLink>
                     </StyledLogo>
 
@@ -144,7 +144,7 @@ const StyledBasicMenu = styled.ul`
     gap: 5.5rem;
 
     color: #666;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
     line-height: 1rem;
 `;

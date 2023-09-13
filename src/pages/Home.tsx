@@ -50,7 +50,7 @@ const Home = () => {
             </AboutMe>
             {!isMobile && (
                 <AboutMe>
-                    <AboutMeImage src="/src/assets/ukss/profile.png" />
+                    <AboutMeImage src="/ukss/profile.png" />
                 </AboutMe>
             )}
         </Container>
