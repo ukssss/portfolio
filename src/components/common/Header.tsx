@@ -141,7 +141,7 @@ const LogoImage = styled.img`
 const StyledBasicMenu = styled.ul`
     display: flex;
     flex-direction: row;
-    gap: 5.5rem;
+    gap: 3rem;
 
     color: #666;
     font-size: 0.8rem;
