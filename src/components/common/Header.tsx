@@ -104,6 +104,8 @@ const Container = styled.header`
 
     height: 100px;
     padding: 2rem;
+
+    z-index: 998;
 `;
 
 const TabletContainer = styled.header`

@@ -70,7 +70,12 @@ const Container = styled.div`
     align-items: center;
 `;
 
-const AboutMe = styled.div``;
+const AboutMe = styled.div`
+    @media (max-width: 1200px) {
+        margin: auto;
+    }
+`;
+
 const AboutMeText = styled.p`
     position: relative;
     display: flex;
@@ -78,14 +83,7 @@ const AboutMeText = styled.p`
     margin-bottom: 1rem;
 
     font-size: 2rem;
-
-    @media (min-width: 768px) and (max-width: 1200px) {
-        font-weight: 500;
-    }
-
-    @media (min-width: 1201px) {
-        font-weight: 700;
-    }
+    font-weight: 700;
 
     & > img {
         position: absolute;
