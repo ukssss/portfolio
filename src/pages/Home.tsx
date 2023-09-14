@@ -62,7 +62,7 @@ const Home = () => {
 
 const Container = styled.div`
     margin-top: 80px;
-    padding: 0 5rem;
+    padding: 0 3rem;
 
     display: flex;
     flex-direction: row;
