@@ -72,7 +72,7 @@ const Container = styled.div`
 
 const AboutMe = styled.div`
     @media (max-width: 1200px) {
-        margin: auto;
+        margin: 0 auto;
     }
 `;
 
@@ -82,7 +82,18 @@ const AboutMeText = styled.p`
     align-items: center;
     margin-bottom: 1rem;
 
-    font-size: 2rem;
+    @media (max-width: 450px) {
+        font-size: 1rem;
+    }
+
+    @media (min-width: 451px) and (max-width: 600px) {
+        font-size: 1.5rem;
+    }
+
+    @media (min-width: 601px) {
+        font-size: 2rem;
+    }
+
     font-weight: 700;
 
     & > img {
