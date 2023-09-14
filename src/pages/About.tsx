@@ -1,4 +1,4 @@
-import { ScrollToTop } from '@/components';
+import { ScrollToTop, SubTitle } from '@/components';
 import styled from 'styled-components';
 
 const About = () => {
@@ -73,13 +73,6 @@ const About = () => {
 
 const Container = styled.div``;
 const Section = styled.section``;
-const SubTitle = styled.h3`
-    font-size: 1.75rem;
-    font-weight: 700;
-    line-height: 2.16rem;
-    letter-spacing: -0.4px;
-    margin-bottom: 1.58rem;
-`;
 const List = styled.ul`
     margin-bottom: 1.58rem;
 `;
