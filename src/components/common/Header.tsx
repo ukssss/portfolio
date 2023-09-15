@@ -90,6 +90,13 @@ const Header = () => {
 };
 
 const Container = styled.header`
+    position: fixed;
+    background-color: #fff;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -97,9 +104,18 @@ const Container = styled.header`
 
     height: 100px;
     padding: 2rem;
+
+    z-index: 998;
 `;
 
 const TabletContainer = styled.header`
+    position: fixed;
+    background-color: #fff;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
     display: flex;
     flex-direction: row;
     justify-content: left;
