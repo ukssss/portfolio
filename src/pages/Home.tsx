@@ -62,7 +62,7 @@ const Home = () => {
 
 const Container = styled.div`
     margin-top: 80px;
-    padding: 0 3rem;
+    padding: 0 5rem;
 
     display: flex;
     flex-direction: row;
@@ -70,31 +70,22 @@ const Container = styled.div`
     align-items: center;
 `;
 
-const AboutMe = styled.div`
-    @media (max-width: 1200px) {
-        margin: 0 auto;
-    }
-`;
-
+const AboutMe = styled.div``;
 const AboutMeText = styled.p`
     position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
 
-    @media (max-width: 450px) {
-        font-size: 1rem;
+    font-size: 2rem;
+
+    @media (min-width: 768px) and (max-width: 1200px) {
+        font-weight: 500;
     }
 
-    @media (min-width: 451px) and (max-width: 600px) {
-        font-size: 1.5rem;
+    @media (min-width: 1201px) {
+        font-weight: 700;
     }
-
-    @media (min-width: 601px) {
-        font-size: 2rem;
-    }
-
-    font-weight: 700;
 
     & > img {
         position: absolute;
