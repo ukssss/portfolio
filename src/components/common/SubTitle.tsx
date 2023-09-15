@@ -8,7 +8,7 @@ const SubTitle = ({ children }: IProps) => {
     return <Text>{children}</Text>;
 };
 
-const Text = styled.h3`
+const Text = styled.h2`
     font-size: 1.75rem;
     font-weight: 700;
     line-height: 2.16rem;
