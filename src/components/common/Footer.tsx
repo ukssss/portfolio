@@ -9,9 +9,6 @@ const Footer = () => {
 };
 
 const Container = styled.div`
-    width: 100%;
-    position: absolute;
-    bottom: 0;
     padding: 1rem;
 `;
 
