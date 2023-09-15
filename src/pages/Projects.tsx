@@ -29,11 +29,11 @@ const Projects = () => {
                         <LinkedList>
                             <StyledLink to="/">
                                 <BiLink />
-                                <ButtonInfo>Live Preview</ButtonInfo>
+                                <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
                             <StyledLink to="/">
                                 <AiFillGithub />
-                                <ButtonInfo>View Code</ButtonInfo>
+                                <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
                         </LinkedList>
                     </Content>
@@ -59,11 +59,11 @@ const Projects = () => {
                         <LinkedList>
                             <StyledLink to="/">
                                 <BiLink />
-                                <ButtonInfo>Live Preview</ButtonInfo>
+                                <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
                             <StyledLink to="/">
                                 <AiFillGithub />
-                                <ButtonInfo>View Code</ButtonInfo>
+                                <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
                         </LinkedList>
                     </Content>
@@ -89,11 +89,11 @@ const Projects = () => {
                         <LinkedList>
                             <StyledLink to="/">
                                 <BiLink />
-                                <ButtonInfo>Live Preview</ButtonInfo>
+                                <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
                             <StyledLink to="/">
                                 <AiFillGithub />
-                                <ButtonInfo>View Code</ButtonInfo>
+                                <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
                         </LinkedList>
                     </Content>
@@ -119,11 +119,11 @@ const Projects = () => {
                         <LinkedList>
                             <StyledLink to="/">
                                 <BiLink />
-                                <ButtonInfo>Live Preview</ButtonInfo>
+                                <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
                             <StyledLink to="/">
                                 <AiFillGithub />
-                                <ButtonInfo>View Code</ButtonInfo>
+                                <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
                         </LinkedList>
                     </Content>
@@ -149,11 +149,11 @@ const Projects = () => {
                         <LinkedList>
                             <StyledLink to="/">
                                 <BiLink />
-                                <ButtonInfo>Live Preview</ButtonInfo>
+                                <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
                             <StyledLink to="/">
                                 <AiFillGithub />
-                                <ButtonInfo>View Code</ButtonInfo>
+                                <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
                         </LinkedList>
                     </Content>
@@ -179,11 +179,11 @@ const Projects = () => {
                         <LinkedList>
                             <StyledLink to="/">
                                 <BiLink />
-                                <ButtonInfo>Live Preview</ButtonInfo>
+                                <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
                             <StyledLink to="/">
                                 <AiFillGithub />
-                                <ButtonInfo>View Code</ButtonInfo>
+                                <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
                         </LinkedList>
                     </Content>
@@ -196,6 +196,10 @@ const Projects = () => {
 const Container = styled.div``;
 const Section = styled.section`
     display: grid;
+
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
 
     @media (min-width: 768px) and (max-width: 1023px) {
         grid-template-columns: repeat(2, 1fr);
@@ -233,17 +237,27 @@ const ProjectInfo = styled.div`
     overflow-y: auto;
 `;
 const TechStack = styled.div`
-    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 0.3rem;
 `;
 const TechStackTitle = styled.span`
     font-size: 0.7rem;
     font-weight: 500;
+    display: inline-block;
 `;
 const TechStackInfo = styled.span`
+    flex: 1;
     font-size: 0.7rem;
     font-weight: 300;
+    display: inline-block;
+    line-height: 1rem;
 `;
 const LinkedList = styled.div`
+    bottom: 0;
     padding: 0.5rem;
     display: flex;
     flex-direction: row;
@@ -258,7 +272,7 @@ const LinkedList = styled.div`
     }
 `;
 
-const ButtonInfo = styled.div`
+const LinkInfo = styled.div`
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.08rem;
