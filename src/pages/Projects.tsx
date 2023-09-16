@@ -9,29 +9,26 @@ const Projects = () => {
             <SubTitle>Projects</SubTitle>
             <Section>
                 <Project>
-                    <StyledLink to="/">
-                        <Image src="/projects/project1.jpg" alt="project-image" />
+                    <StyledLink to="https://portfolio-ukssss.vercel.app/">
+                        <Image src="/projects/portfolio.png" alt="project-image" />
                     </StyledLink>
                     <Content>
-                        <ProjectTitle>Project Tile goes here</ProjectTitle>
+                        <ProjectTitle>Portfolio</ProjectTitle>
                         <ProjectInfo>
-                            This is sample project description random things are here in description
-                            This is sample project lorem ipsum generator for dummy This is sample
-                            project description random things are here in description This is sample
-                            project lorem ipsum generator for dummy This is sample project
-                            description random things are here in description This is sample project
-                            lorem ipsum generator for dummy
+                            해당 레포지토리는 포트폴리오 작성을 위해 만들어진 저장소입니다.
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
-                            <TechStackInfo>Typescript, React, Styled-components</TechStackInfo>
+                            <TechStackInfo>
+                                Vite, Typescript, React, React-router-dom, Styled-components
+                            </TechStackInfo>
                         </TechStack>
                         <LinkedList>
-                            <StyledLink to="/">
+                            <StyledLink to="https://portfolio-ukssss.vercel.app/">
                                 <BiLink />
                                 <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
-                            <StyledLink to="/">
+                            <StyledLink to="https://github.com/ukssss/portfolio">
                                 <AiFillGithub />
                                 <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
@@ -39,29 +36,28 @@ const Projects = () => {
                     </Content>
                 </Project>
                 <Project>
-                    <StyledLink to="/">
-                        <Image src="/projects/project1.jpg" alt="project-image" />
+                    <StyledLink to="https://time-series-chart-six.vercel.app/">
+                        <Image src="/projects/time-series-chart.png" alt="project-image" />
                     </StyledLink>
                     <Content>
-                        <ProjectTitle>Project Tile goes here</ProjectTitle>
+                        <ProjectTitle>Time-Series-Chart</ProjectTitle>
                         <ProjectInfo>
-                            This is sample project description random things are here in description
-                            This is sample project lorem ipsum generator for dummy This is sample
-                            project description random things are here in description This is sample
-                            project lorem ipsum generator for dummy This is sample project
-                            description random things are here in description This is sample project
-                            lorem ipsum generator for dummy
+                            원티드 프리온보딩 인턴쉽 프론트엔드 4주차 과제로 주어진 데이터를
+                            기반으로 시계열 차트를 만드는 프로젝트이다.
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
-                            <TechStackInfo>Typescript, React, Styled-components</TechStackInfo>
+                            <TechStackInfo>
+                                Vite, Typescript, React, React-router-dom, Recharts, Axios,
+                                Styled-components
+                            </TechStackInfo>
                         </TechStack>
                         <LinkedList>
-                            <StyledLink to="/">
+                            <StyledLink to="https://time-series-chart-six.vercel.app/">
                                 <BiLink />
                                 <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
-                            <StyledLink to="/">
+                            <StyledLink to="https://github.com/ukssss/time-series-chart">
                                 <AiFillGithub />
                                 <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
@@ -69,29 +65,28 @@ const Projects = () => {
                     </Content>
                 </Project>
                 <Project>
-                    <StyledLink to="/">
-                        <Image src="/projects/project1.jpg" alt="project-image" />
+                    <StyledLink to="https://clinical-trial-search-seven.vercel.app/">
+                        <Image src="/projects/clinical-trial-search.png" alt="project-image" />
                     </StyledLink>
                     <Content>
-                        <ProjectTitle>Project Tile goes here</ProjectTitle>
+                        <ProjectTitle>Clinical-Trial-Search</ProjectTitle>
                         <ProjectInfo>
-                            This is sample project description random things are here in description
-                            This is sample project lorem ipsum generator for dummy This is sample
-                            project description random things are here in description This is sample
-                            project lorem ipsum generator for dummy This is sample project
-                            description random things are here in description This is sample project
-                            lorem ipsum generator for dummy
+                            원티드 프리온보딩 인턴쉽 프론트엔드 3주차 과제로 한국임상정보 사이트에서
+                            검색영역을 클론하여 검색창 구현 + 검색어 추천 기능 구현 + 캐싱 기능
+                            구현을 목표로 한 프로젝트이다.
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
-                            <TechStackInfo>Typescript, React, Styled-components</TechStackInfo>
+                            <TechStackInfo>
+                                Vite, Typescript, React, React-router-dom, Axios, Styled-Components
+                            </TechStackInfo>
                         </TechStack>
                         <LinkedList>
-                            <StyledLink to="/">
+                            <StyledLink to="https://clinical-trial-search-seven.vercel.app/">
                                 <BiLink />
                                 <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
-                            <StyledLink to="/">
+                            <StyledLink to="https://github.com/ukssss/clinical-trial-search">
                                 <AiFillGithub />
                                 <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
@@ -99,29 +94,28 @@ const Projects = () => {
                     </Content>
                 </Project>
                 <Project>
-                    <StyledLink to="/">
-                        <Image src="/projects/project1.jpg" alt="project-image" />
+                    <StyledLink to="https://pre-onboarding-12th-2-ukss.vercel.app/">
+                        <Image src="/projects/github-issues-reader.png" alt="project-image" />
                     </StyledLink>
                     <Content>
-                        <ProjectTitle>Project Tile goes here</ProjectTitle>
+                        <ProjectTitle>Github-Issues-Reader</ProjectTitle>
                         <ProjectInfo>
-                            This is sample project description random things are here in description
-                            This is sample project lorem ipsum generator for dummy This is sample
-                            project description random things are here in description This is sample
-                            project lorem ipsum generator for dummy This is sample project
-                            description random things are here in description This is sample project
-                            lorem ipsum generator for dummy
+                            원티드 프리온보딩 인턴쉽 프론트엔드 2주차 과제로 특정 깃헙
+                            레파지토리(Issues React)의 이슈 목록과 상세 내용을 확인하는 웹 사이트
+                            구축를 목표로 한 프로젝트
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
-                            <TechStackInfo>Typescript, React, Styled-components</TechStackInfo>
+                            <TechStackInfo>
+                                Typescript, React, React-router-dom, Octokit, Styled-components
+                            </TechStackInfo>
                         </TechStack>
                         <LinkedList>
-                            <StyledLink to="/">
+                            <StyledLink to="https://pre-onboarding-12th-2-ukss.vercel.app/">
                                 <BiLink />
                                 <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
-                            <StyledLink to="/">
+                            <StyledLink to="https://github.com/ukssss/github-issues-reader">
                                 <AiFillGithub />
                                 <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
@@ -129,29 +123,28 @@ const Projects = () => {
                     </Content>
                 </Project>
                 <Project>
-                    <StyledLink to="/">
-                        <Image src="/projects/project1.jpg" alt="project-image" />
+                    <StyledLink to="https://wanted-pre-onboarding-frontend-ukssss.vercel.app">
+                        <Image src="/projects/todolist.png" alt="project-image" />
                     </StyledLink>
                     <Content>
-                        <ProjectTitle>Project Tile goes here</ProjectTitle>
+                        <ProjectTitle>TodoList</ProjectTitle>
                         <ProjectInfo>
-                            This is sample project description random things are here in description
-                            This is sample project lorem ipsum generator for dummy This is sample
-                            project description random things are here in description This is sample
-                            project lorem ipsum generator for dummy This is sample project
-                            description random things are here in description This is sample project
-                            lorem ipsum generator for dummy
+                            원티드 프리온보딩 인턴쉽 프론트엔드 선발과제로 제공되는 api 를 사용하여
+                            로그인/회원가입/Todo CRUD 기능을 포함한 투두리스트 웹 사이트 구축
+                            프로젝트
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
-                            <TechStackInfo>Typescript, React, Styled-components</TechStackInfo>
+                            <TechStackInfo>
+                                React, React-router-dom, Axios, Styled-components
+                            </TechStackInfo>
                         </TechStack>
                         <LinkedList>
-                            <StyledLink to="/">
+                            <StyledLink to="https://wanted-pre-onboarding-frontend-ukssss.vercel.app">
                                 <BiLink />
                                 <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
-                            <StyledLink to="/">
+                            <StyledLink to="https://github.com/ukssss/wanted-pre-onboarding-frontend">
                                 <AiFillGithub />
                                 <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
@@ -159,29 +152,27 @@ const Projects = () => {
                     </Content>
                 </Project>
                 <Project>
-                    <StyledLink to="/">
-                        <Image src="/projects/project1.jpg" alt="project-image" />
+                    <StyledLink to="https://likelion-react-16.github.io/Market-Karly/#/">
+                        <Image src="/projects/market-karly.png" alt="project-image" />
                     </StyledLink>
                     <Content>
-                        <ProjectTitle>Project Tile goes here</ProjectTitle>
+                        <ProjectTitle>Market Karly</ProjectTitle>
                         <ProjectInfo>
-                            This is sample project description random things are here in description
-                            This is sample project lorem ipsum generator for dummy This is sample
-                            project description random things are here in description This is sample
-                            project lorem ipsum generator for dummy This is sample project
-                            description random things are here in description This is sample project
-                            lorem ipsum generator for dummy
+                            멋쟁이사자처럼 프론트엔드 스쿨 4기에서 진행한 React Project 로 마켓 컬리
+                            사이트를 참고하여 만든 프로젝트
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
-                            <TechStackInfo>Typescript, React, Styled-components</TechStackInfo>
+                            <TechStackInfo>
+                                Vite, React, React-router-dom, Recoil, Sass, Firebase
+                            </TechStackInfo>
                         </TechStack>
                         <LinkedList>
-                            <StyledLink to="/">
+                            <StyledLink to="https://likelion-react-16.github.io/Market-Karly/#/">
                                 <BiLink />
                                 <LinkInfo>Live Preview</LinkInfo>
                             </StyledLink>
-                            <StyledLink to="/">
+                            <StyledLink to="https://github.com/LIKELION-REACT-16/Market-Karly">
                                 <AiFillGithub />
                                 <LinkInfo>View Code</LinkInfo>
                             </StyledLink>
@@ -216,24 +207,28 @@ const Section = styled.section`
 const Project = styled.article`
     border-radius: 20px;
     box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+    height: 25rem;
 `;
 const Image = styled.img`
     border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 13.08rem;
+    object-fit: cover;
 `;
 const Content = styled.div``;
 const ProjectTitle = styled.h4`
-    padding: 0.7rem;
-
     font-weight: 500;
-    line-height: 1.08rem;
+    line-height: 2rem;
     text-align: center;
+
+    height: 2rem;
 `;
 const ProjectInfo = styled.div`
-    padding: 0 0.5rem;
+    padding: 0.5rem;
     font-size: 0.8rem;
     font-weight: 300;
     line-height: 1.08rem;
-    max-height: 3.3rem;
+    height: 5rem;
     overflow-y: auto;
 `;
 const TechStack = styled.div`
@@ -243,6 +238,7 @@ const TechStack = styled.div`
     justify-content: center;
     align-items: start;
     gap: 0.3rem;
+    height: 3rem;
 `;
 const TechStackTitle = styled.span`
     font-size: 0.7rem;
@@ -255,9 +251,10 @@ const TechStackInfo = styled.span`
     font-weight: 300;
     display: inline-block;
     line-height: 1rem;
+    height: 2rem;
+    overflow-y: scroll;
 `;
 const LinkedList = styled.div`
-    bottom: 0;
     padding: 0.5rem;
     display: flex;
     flex-direction: row;
