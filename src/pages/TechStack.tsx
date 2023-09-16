@@ -36,10 +36,20 @@ const TechStack = () => {
 
                         <Explanation>
                             <SkillTitle>HTML</SkillTitle>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
+                            <Paragraph>
+                                - HTML은 웹 페이지의 기반이 되는 언어로, 구조와 의미를 중요하게
+                                생각합니다.
+                            </Paragraph>
+
+                            <Paragraph>
+                                - 웹 접근성을 고려하여 적절한 시맨틱 태그를 사용하려 노력하며 태그의
+                                의미를 명확히 표현하려고 노력합니다.
+                            </Paragraph>
+
+                            <Paragraph>
+                                - 들여쓰기와 주석을 사용하여 코드 가독성을 높이며, 중첩을 최소화하고
+                                모듈화된 구조를 선호합니다.
+                            </Paragraph>
                         </Explanation>
                     </Item>
                     <Item>
@@ -51,10 +61,19 @@ const TechStack = () => {
 
                         <Explanation>
                             <SkillTitle>CSS</SkillTitle>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
+                            <Paragraph>
+                                - 모바일 우선 접근 방식을 채택하고, 미디어 쿼리를 사용하여 반응형
+                                디자인을 설계하고자 합니다.
+                            </Paragraph>
+
+                            <Paragraph>
+                                - 브라우저 렌더링에 있어 reflow, repaint 개념을 이해하며, 성능을
+                                고려한 CSS 스타일 작업을 하고자 합니다.
+                            </Paragraph>
+
+                            <Paragraph>
+                                - 크로스 브라우징 이슈를 고려한 일관적인 UI를 구현하려고 노력합니다.
+                            </Paragraph>
                         </Explanation>
                     </Item>
                     <Item>
@@ -67,10 +86,21 @@ const TechStack = () => {
 
                         <Explanation>
                             <SkillTitle>JS, TS</SkillTitle>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
+                            <Paragraph>
+                                - JavaScript는 동적인 기능을 추가하는 핵심 언어로, 이를 활용하여
+                                다양한 문제를 해결하는 능력과 창의성을 키우기 위해 노력합니다. 뿐만
+                                아니라 TypeScript를 통해 코드의 타입 안정성을 강화하고 개선하려고
+                                노력합니다.
+                            </Paragraph>
+
+                            <Paragraph>
+                                - 함수형 프로그래밍 개념을 활용하여 코드를 작성하며, 모듈화된 코드
+                                구조를 구축합니다.
+                            </Paragraph>
+                            <Paragraph>
+                                - 코드 스타일 가이드를 준수하고 코드 리뷰를 통해 코드 품질을
+                                유지하며, 예외 처리와 에러 핸들링에 주의를 기울이려 합니다.
+                            </Paragraph>
                         </Explanation>
                     </Item>
                     <Item>
@@ -82,10 +112,22 @@ const TechStack = () => {
 
                         <Explanation>
                             <SkillTitle>REACT</SkillTitle>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
-                            <Paragraph>- 시맨틱 마크업 구조를 추구</Paragraph>
+                            <Paragraph>
+                                - React는 사용자 인터페이스 개발에 사용되며, 컴포넌트 기반 접근
+                                방식을 사랑합니다. 즉, 사용자의 경험을 중요시하며 최신 React
+                                트렌드를 따라가려고 노력합니다.
+                            </Paragraph>
+
+                            <Paragraph>
+                                - 상태 관리를 위해 ContextApi, Redux, Recoil 과 같은 다양한 기법
+                                혹은 라이브러리를 사용해보며, 어떠한 방식이 해당 웹 사이트에서 더
+                                효율적인지를 항상 고민해보려고 합니다.
+                            </Paragraph>
+
+                            <Paragraph>
+                                - 컴포넌트를 더욱 효과적으로 사용하기 위해 유지보수가 쉽고
+                                재사용성이 높은 컴포넌트 작성을 위해 노력합니다.
+                            </Paragraph>
                         </Explanation>
                     </Item>
                 </List>
