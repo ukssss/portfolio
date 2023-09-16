@@ -9,9 +9,9 @@ const Footer = () => {
 };
 
 const Container = styled.div`
+    position: relative;
     width: 100%;
-    bottom: 0;
-    padding: 1rem;
+    height: auto;
 `;
 
 const StyledFooter = styled.footer`
@@ -20,6 +20,10 @@ const StyledFooter = styled.footer`
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 `;
 
 export default Footer;
