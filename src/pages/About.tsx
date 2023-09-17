@@ -113,6 +113,12 @@ const About = () => {
                                     타입을 어떻게 지정하고 코드 안정성을 갖춘 코드를 갖추기 위해
                                     학습하였다.
                                 </AboutMeSubItem>
+
+                                <AboutMeSubItem>
+                                    다양한 기업 과제를 수행하고 동료들과 여러가지 의견을 나누며 Best
+                                    Practice를 뽑는 과정들을 통해 개발 기술 역량을 향상시킬 수
+                                    있었습니다.
+                                </AboutMeSubItem>
                             </AboutMeSub>
                         </AboutMeInfo>
                     </AboutMe>
@@ -215,18 +221,23 @@ const AboutMe = styled.li`
     gap: 0.5rem;
 `;
 const AboutMeDate = styled.div`
-    min-width: 6rem;
     padding: 0 1rem;
     border-right: 1px solid #666;
 
     color: #666;
     font-size: 0.8rem;
+    flex: 0;
+    min-width: 10rem;
 `;
-const AboutMeInfo = styled.div``;
+const AboutMeInfo = styled.div`
+    flex: 1;
+`;
 const AboutMeMain = styled.h4``;
 const AboutMeSub = styled.ul`
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 `;
-const AboutMeSubItem = styled.li``;
+const AboutMeSubItem = styled.li`
+    margin-bottom: 0.2rem;
+`;
 
 export default About;
