@@ -195,6 +195,9 @@ const Item = styled.li`
 `;
 
 const LogoDiv = styled.div`
+    flex: 0;
+    min-width: 5rem;
+
     display: flex;
     flex-direction: row;
 
