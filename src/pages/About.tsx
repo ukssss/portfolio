@@ -227,7 +227,14 @@ const AboutMeDate = styled.div`
     color: #666;
     font-size: 0.8rem;
     flex: 0;
-    min-width: 10rem;
+
+    @media (max-width: 767px) {
+        min-width: 6rem;
+    }
+
+    @media (min-width: 768px) {
+        min-width: 10rem;
+    }
 `;
 const AboutMeInfo = styled.div`
     flex: 1;
