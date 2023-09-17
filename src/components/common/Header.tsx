@@ -1,5 +1,6 @@
 import { sideCarState } from '@/recoil';
 import { MdMenu } from 'react-icons/md';
+import { SiGithub, SiLinkedin, SiVelog } from 'react-icons/si';
 import { useMediaQuery } from 'react-responsive';
 import { Link } from 'react-router-dom';
 import { useRecoilState } from 'recoil';
@@ -51,17 +52,25 @@ const Header = () => {
                     <StyledLinkMenu>
                         <StyledMenuItem>
                             <StyledLink to="https://github.com/ukssss">
-                                <MenuImage src="/sns/github.svg" alt="logo" />
+                                <SiGithub />
                             </StyledLink>
                         </StyledMenuItem>
-                        <StyledMenuItem>
+                        <StyledMenuItem
+                            onClick={() => {
+                                alert('Not connected. Return to the homepage,,,');
+                            }}
+                        >
                             <StyledLink to="/">
-                                <MenuImage src="/sns/twitter.svg" alt="logo" />
+                                <SiVelog />
                             </StyledLink>
                         </StyledMenuItem>
-                        <StyledMenuItem>
+                        <StyledMenuItem
+                            onClick={() => {
+                                alert('Not connected. Return to the homepage,,,');
+                            }}
+                        >
                             <StyledLink to="/">
-                                <MenuImage src="/sns/linkedin.svg" alt="logo" />
+                                <SiLinkedin />
                             </StyledLink>
                         </StyledMenuItem>
                     </StyledLinkMenu>
@@ -174,8 +183,12 @@ const StyledLinkMenu = styled.ul`
     gap: 0.8rem;
 `;
 
-const MenuImage = styled.img``;
-
-const StyledLink = styled(Link)``;
+const StyledLink = styled(Link)`
+    & > svg {
+        width: 25px;
+        height: 25px;
+        fill: #666;
+    }
+`;
 
 export default Header;
