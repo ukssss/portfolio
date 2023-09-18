@@ -1,16 +1,16 @@
 # Portfolio
 
-해당 레포지토리는 포트폴리오 작성을 위해 만들어진 저장소입니다.
+<p>
+    <img src="./public/desktop/home.gif">
+</p>
 
-## 배포 URL
-
-<!-- 배포 URL 바로가기 -->
-
-[작업중](#)
+-   목표 : 포트폴리오를 구성하기 위해 개발한 프로젝트입니다. 해당 프로젝트는 나의
+    웹 개발 스킬, 이력, 자격 사항을 강조하기 위해 제작하였습니다.
+-   배포 URL : [배포 URL 바로가기](https://portfolio-ukssss.vercel.app/)
 
 ## 기술 스택
 
-![vite](https://img.shields.io/badge/vite-4.4.5-646CFF?logo=vite) ![typescript](https://img.shields.io/badge/typescript-5.0.2-3178C6?logo=typescript) ![react](https://img.shields.io/badge/react-18.2.0-61DAFB?logo=react) ![reactrouter](https://img.shields.io/badge/react--router--dom-6.15.0-CA4245?logo=reactrouter) ![styled-components](https://img.shields.io/badge/styled--components-6.0.7-DB7093?logo=styledcomponents) ![vercel](https://img.shields.io/badge/vercel-000000?logo=vercel)
+![vite](https://img.shields.io/badge/vite-4.4.5-646CFF?logo=vite) ![typescript](https://img.shields.io/badge/typescript-5.0.2-3178C6?logo=typescript) ![react](https://img.shields.io/badge/react-18.2.0-61DAFB?logo=react) ![reactrouter](https://img.shields.io/badge/react--router--dom-6.15.0-CA4245?logo=reactrouter) ![recoil](https://img.shields.io/badge/recoil-0.7.7-3578E5?logo=recoil) ![styled-components](https://img.shields.io/badge/styled--components-6.0.7-DB7093?logo=styledcomponents) ![vercel](https://img.shields.io/badge/vercel-000000?logo=vercel)
 
 ## 설치 및 실행
 
@@ -26,7 +26,7 @@ $ git clone https://github.com/ukssss/portfolio.git
 $ npm install
 ```
 
-3. 서버 및 애플리케이션 실행 (Run Server & Application)
+3. 애플리케이션 실행 (Run Application)
 
 ```zsh
 $ npm run dev
@@ -35,14 +35,71 @@ $ npm run dev
 ## 폴더 구조
 
 ```base
-Not yet :)
+src
+ ┣ assets
+ ┃ ┗ react.svg
+ ┣ components
+ ┃ ┣ common
+ ┃ ┃ ┣ Error.tsx
+ ┃ ┃ ┣ Footer.tsx
+ ┃ ┃ ┣ Hamburger.tsx
+ ┃ ┃ ┣ Header.tsx
+ ┃ ┃ ┣ ScrollToTop.tsx
+ ┃ ┃ ┣ SideCar.tsx
+ ┃ ┃ ┗ SubTitle.tsx
+ ┃ ┣ domain
+ ┃ ┗ index.ts
+ ┣ fonts
+ ┃ ┣ SUITE-Bold.woff2
+ ┃ ┣ SUITE-ExtraBold.woff2
+ ┃ ┣ SUITE-Heavy.woff2
+ ┃ ┣ SUITE-Light.woff2
+ ┃ ┣ SUITE-Medium.woff2
+ ┃ ┣ SUITE-Regular.woff2
+ ┃ ┣ SUITE-SemiBold.woff2
+ ┃ ┗ SUITE.css
+ ┣ pages
+ ┃ ┣ About.tsx
+ ┃ ┣ Contact.tsx
+ ┃ ┣ Home.tsx
+ ┃ ┣ Projects.tsx
+ ┃ ┣ TechStack.tsx
+ ┃ ┗ index.ts
+ ┣ recoil
+ ┃ ┣ atoms
+ ┃ ┃ ┗ sideCarState.ts
+ ┃ ┗ index.ts
+ ┣ routes
+ ┃ ┗ router.tsx
+ ┣ types
+ ┃ ┗ assets.d.ts
+ ┣ App.css
+ ┣ App.tsx
+ ┣ index.css
+ ┗ main.tsx
 ```
 
 ## 구현 내용
 
-| Not yet :)       |
-| ---------------- |
-| ![Not yet :)](#) |
+| Home                               | Home (Mobile)                     | SideCar (Mobile)                        |
+| ---------------------------------- | --------------------------------- | --------------------------------------- |
+| ![Home](./public/desktop/home.gif) | ![Home](./public/mobile/home.gif) | ![SideCar](./public/mobile/sidecar.gif) |
+
+| About                                | About (Mobile)                      |
+| ------------------------------------ | ----------------------------------- |
+| ![About](./public/desktop/about.gif) | ![About](./public/mobile/about.gif) |
+
+| Tech Stack                               | Tech Stack (Mobile)                     |
+| ---------------------------------------- | --------------------------------------- |
+| ![Tech Stack](./public/desktop/tech.gif) | ![Tech Stack](./public/mobile/tech.gif) |
+
+| Projects                                   | Projects (Mobile)                         |
+| ------------------------------------------ | ----------------------------------------- |
+| ![Projects](./public/desktop/projects.gif) | ![Projects](./public/mobile/projects.gif) |
+
+| Contact                                  | Contact (Mobile)                        |
+| ---------------------------------------- | --------------------------------------- |
+| ![Contact](./public/desktop/contact.png) | ![Contact](./public/mobile/contact.png) |
 
 ## 커밋 컨벤션
 
