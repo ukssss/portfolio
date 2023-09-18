@@ -1,4 +1,4 @@
-import { SubTitle } from '@/components';
+import { ScrollToTop, SubTitle } from '@/components';
 import { useMediaQuery } from 'react-responsive';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
@@ -166,6 +166,14 @@ const TechStack = () => {
                     </Slider>
                 </SliderList>
             </Section>
+
+            <ScrollToTop
+                opacity={0.8}
+                size={'3rem'}
+                bottom={'1rem'}
+                right={'1rem'}
+                color={'#007ACC'}
+            />
         </Container>
     );
 };

@@ -1,4 +1,4 @@
-import { SubTitle } from '@/components';
+import { ScrollToTop, SubTitle } from '@/components';
 import { AiFillGithub } from 'react-icons/ai';
 import { BiLink } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
@@ -181,6 +181,14 @@ const Projects = () => {
                     </Content>
                 </Project>
             </Section>
+
+            <ScrollToTop
+                opacity={0.8}
+                size={'3rem'}
+                bottom={'1rem'}
+                right={'1rem'}
+                color={'#007ACC'}
+            />
         </Container>
     );
 };
