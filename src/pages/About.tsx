@@ -27,13 +27,13 @@ const About = () => {
 
                                 <AboutMeSubItem>
                                     간단한 웹 게임을 만들어 보는 과정에서 React의 기본 구조와 동작
-                                    원리를 실제로 체험할 수 있었다.
+                                    원리를 실제로 체험할 수 있었습니다.
                                 </AboutMeSubItem>
 
                                 <AboutMeSubItem>
                                     프론트엔드 개발에 필요한 역량이 무엇인지 알게 되었고 이를 통해
                                     HTML, CSS, JS를 공부하게 되었고 웹 개발의 핵심 기술을 자세히
-                                    이해하고 공부해야 할 명확한 방향을 잡을 수 있었다.
+                                    이해하고 공부해야 할 명확한 방향을 잡을 수 있었습니다.
                                 </AboutMeSubItem>
                             </AboutMeSub>
                         </AboutMeInfo>
