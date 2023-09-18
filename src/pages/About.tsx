@@ -239,12 +239,17 @@ const AboutMeDate = styled.div`
 const AboutMeInfo = styled.div`
     flex: 1;
 `;
-const AboutMeMain = styled.h4``;
+const AboutMeMain = styled.h4`
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+`;
+
 const AboutMeSub = styled.ul`
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 `;
 const AboutMeSubItem = styled.li`
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.3rem;
 `;
 
 export default About;
