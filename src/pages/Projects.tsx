@@ -15,7 +15,8 @@ const Projects = () => {
                     <Content>
                         <ProjectTitle>Portfolio</ProjectTitle>
                         <ProjectInfo>
-                            해당 레포지토리는 포트폴리오 작성을 위해 만들어진 저장소입니다.
+                            포트폴리오를 구성하기 위해 개발한 프로젝트입니다. 해당 프로젝트는 나의
+                            웹 개발 스킬, 이력, 자격 사항을 강조하기 위해 제작하였습니다.
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
@@ -43,7 +44,8 @@ const Projects = () => {
                         <ProjectTitle>Time-Series-Chart</ProjectTitle>
                         <ProjectInfo>
                             원티드 프리온보딩 인턴쉽 프론트엔드 4주차 과제로 주어진 데이터를
-                            기반으로 시계열 차트를 만드는 프로젝트이다.
+                            기반으로 시계열 차트를 생성하고 상호작용 기능을 구현한 웹
+                            어플리케이션입니다.
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
@@ -71,9 +73,9 @@ const Projects = () => {
                     <Content>
                         <ProjectTitle>Clinical-Trial-Search</ProjectTitle>
                         <ProjectInfo>
-                            원티드 프리온보딩 인턴쉽 프론트엔드 3주차 과제로 한국임상정보 사이트에서
-                            검색영역을 클론하여 검색창 구현 + 검색어 추천 기능 구현 + 캐싱 기능
-                            구현을 목표로 한 프로젝트이다.
+                            원티드 프리온보딩 인턴쉽 프론트엔드 3주차 과제로 한국임상정보 사이트의
+                            검색 영역을 클론하여 검색창을 만들고, 검색어 추천 및 캐싱 기능을 구현한
+                            웹 어플리케이션입니다.
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
@@ -100,9 +102,8 @@ const Projects = () => {
                     <Content>
                         <ProjectTitle>Github-Issues-Reader</ProjectTitle>
                         <ProjectInfo>
-                            원티드 프리온보딩 인턴쉽 프론트엔드 2주차 과제로 특정 깃헙
-                            레파지토리(Issues React)의 이슈 목록과 상세 내용을 확인하는 웹 사이트
-                            구축를 목표로 한 프로젝트
+                            원티드 프리온보딩 인턴쉽 프론트엔드 2주차 과제로 특정 깃헙 레파지토리의
+                            이슈 목록과 상세 내용을 확인하는 웹 사이트를 구축하는 프로젝트였습니다.
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
@@ -129,9 +130,9 @@ const Projects = () => {
                     <Content>
                         <ProjectTitle>TodoList</ProjectTitle>
                         <ProjectInfo>
-                            원티드 프리온보딩 인턴쉽 프론트엔드 선발과제로 제공되는 api 를 사용하여
-                            로그인/회원가입/Todo CRUD 기능을 포함한 투두리스트 웹 사이트 구축
-                            프로젝트
+                            원티드 프리온보딩 인턴쉽 프론트엔드 선발과제로 제공된 API를 활용하여
+                            로그인, 회원가입, 그리고 Todo CRUD (생성, 읽기, 업데이트, 삭제) 기능을
+                            포함한 투두리스트 웹 사이트 구축한 프로젝트입니다.
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
@@ -158,8 +159,8 @@ const Projects = () => {
                     <Content>
                         <ProjectTitle>Market Karly</ProjectTitle>
                         <ProjectInfo>
-                            멋쟁이사자처럼 프론트엔드 스쿨 4기에서 진행한 React Project 로 마켓 컬리
-                            사이트를 참고하여 만든 프로젝트
+                            멋쟁이사자처럼 프론트엔드 스쿨 4기에서 진행한 React 프로젝트로 "마켓
+                            컬리" 사이트를 참고하여 만든 웹 어플리케이션입니다.
                         </ProjectInfo>
                         <TechStack>
                             <TechStackTitle>Tech stack : </TechStackTitle>
@@ -207,7 +208,7 @@ const Section = styled.section`
 const Project = styled.article`
     border-radius: 20px;
     box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
-    height: 25rem;
+    height: 28rem;
 `;
 const Image = styled.img`
     border-radius: 20px 20px 0px 0px;
@@ -228,7 +229,7 @@ const ProjectInfo = styled.div`
     font-size: 0.8rem;
     font-weight: 300;
     line-height: 1.08rem;
-    height: 5rem;
+    height: 8rem;
     overflow-y: auto;
 `;
 const TechStack = styled.div`
