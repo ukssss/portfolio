@@ -1,5 +1,5 @@
 import { useMediaQuery } from 'react-responsive';
-import styled from 'styled-components';
+import styled from 'styled-components'; 
 
 const Home = () => {
     const isMobile = useMediaQuery({
@@ -14,65 +14,69 @@ const Home = () => {
         query: '(min-width: 1024px)',
     });
 
+    const isLargeDesktop = useMediaQuery({
+        query: '(min-width: 1201px)',
+    });
+
     return (
-        <Container>
-            <AboutMe>
-                <AboutMeText>
-                    Hi &nbsp;
-                    {isDesktop && (
-                        <img
-                            src="https://camo.githubusercontent.com/e8e7b06ecf583bc040eb60e44eb5b8e0ecc5421320a92929ce21522dbc34c891/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966"
-                            width="60"
-                            data-canonical-src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
-                        />
-                    )}
-                    {isTablet && (
-                        <img
-                            src="https://camo.githubusercontent.com/e8e7b06ecf583bc040eb60e44eb5b8e0ecc5421320a92929ce21522dbc34c891/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966"
-                            width="50"
-                            data-canonical-src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
-                        />
-                    )}
-                    {isMobile && (
-                        <img
-                            src="https://camo.githubusercontent.com/e8e7b06ecf583bc040eb60e44eb5b8e0ecc5421320a92929ce21522dbc34c891/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966"
-                            width="50"
-                            data-canonical-src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
-                        />
-                    )}
-                </AboutMeText>
-                <AboutMeText>
-                    <AboutMeTextColor color="#007ACC">&lt;Code /&gt;</AboutMeTextColor>
-                    &nbsp;라는 붓을 가지고
-                </AboutMeText>
-                <AboutMeText>예술가가 되기를 꿈꾸는</AboutMeText>
-                <AboutMeText>
-                    개발자&nbsp;<AboutMeTextColor color="#007ACC">홍성욱</AboutMeTextColor>
-                    &nbsp;입니다
-                </AboutMeText>
-            </AboutMe>
-            {!isMobile && (
+        <OuterCenter>
+            <Container>
                 <AboutMe>
-                    <AboutMeImage src="/ukss/profile.png" />
+                    <AboutMeText>
+                        Hi &nbsp;
+                    </AboutMeText>
+                    <AboutMeText>
+                        <AboutMeTextColor color="#007ACC">&lt;Code /&gt;</AboutMeTextColor>
+                        &nbsp;라는 붓을 가지고
+                    </AboutMeText>
+                    <AboutMeText>예술가가 되기를 꿈꾸는</AboutMeText>
+                    <AboutMeText>
+                        개발자&nbsp;<AboutMeTextColor color="#007ACC">홍성욱</AboutMeTextColor>
+                        &nbsp;입니다
+                    </AboutMeText>
                 </AboutMe>
-            )}
-        </Container>
+                {isLargeDesktop && (
+                    <AboutMe>
+                        <AboutMeImage src="/ukss/profile.png" />
+                    </AboutMe>
+                )}
+            </Container>
+        </OuterCenter>
     );
 };
 
-const Container = styled.div`
-    margin-top: 80px;
-    padding: 0 3rem;
+// 화면 전체에서 가운데 정렬을 위한 래퍼
+const OuterCenter = styled.div`
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+`;
 
+const Container = styled.div`
+    padding: 0 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 4rem;
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        gap: 3rem;
+    }
 `;
 
 const AboutMe = styled.div`
     @media (max-width: 1200px) {
         margin: 0 auto;
+        text-align: center;
     }
 `;
 
@@ -108,14 +112,18 @@ const AboutMeTextColor = styled.span<{ color: string }>`
 `;
 
 const AboutMeImage = styled.img`
-    border-radius: 50%;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 
     @media (min-width: 768px) and (max-width: 1200px) {
-        width: 150px;
+        width: 200px;
+        height: 250px;
     }
 
     @media (min-width: 1201px) {
-        width: 300px;
+        width: 280px;
+        height: 350px;
     }
 `;
 
